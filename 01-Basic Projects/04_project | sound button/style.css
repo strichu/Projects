@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rosybrown;
+    overflow: hidden;
+    text-align: center;
+    overflow: hidden;
+    
+ 
+
+}
+
+button{
+  padding: 10px 40px;
+  border-radius:50px;
+  background:steelblue;
+  color:white;
+  border:0;
+  margin-right:10px;
+  color:transparent;
+  
+  justify-content:center;
+  align-items:center;
+  flex-direction:center;
+  
+}
+
+button:nth-child(1)::after{
+  content:"song1";
+  color:white;
+  margin-right:25px   
+}
+button:nth-child(2)::after{
+  content:"song2";
+  color:white;
+  margin-right:25px   
+}
+
