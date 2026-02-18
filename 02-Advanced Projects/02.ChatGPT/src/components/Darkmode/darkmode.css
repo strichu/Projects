@@ -1,0 +1,17 @@
+.darkmoodbtn {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  border: 0;
+  padding: 10px;
+  background-color: var(--background-color-btn);
+  color: var(--color-btn);
+}
+.darkmoodbtn svg {
+  height: 30px;
+  width: 30px;
+}
+.darkmoodbtn:hover{
+  background-color: var(--hover-background-color);
+    
+}
